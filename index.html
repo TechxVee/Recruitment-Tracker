@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <h1>RECRUITO</h1>
-        <h2>Software Recruitment Tracker</h2>
+        <!--Application logo-->
+        <h1 class="logo">CLICKY CLICK</h1>
 
-        <div id="container">
-            <input type="text">
-            <button>PIN IT!</buttton>
-            <button>DELETE</button>
+        <!--Manual save url bar-->
+        <input type="text" id="input">
+
+        <div id="button-container"
+            <!--Manual save, save tab, delete buttons-->
+            <button id="manual-btn">MANUAL SAVE</buttton>
+            <button id="tab-btn">SAVE TAB</buttton>
+            <button id="delete-btn">DELETE</button>
         </div>
-    
+
+        <!--List urls-->
+        <ul id="list"></ul>
+
+        <!--Javascript-->
+        <script src="index.js"></script>
     </body>
 </html>

@@ -1,32 +1,56 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+}
+
+/*  Header Styling */
 h1 {
-    font-family: 'Road Rage', cursive;
-    text-align: center;
-    font-size: 70px;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    text-align: right;
     margin: 0;
+    color: #753422;
 }
 
-h2 {
-    text-align: center;
-    font-size: 18px;
-    margin: 0;
-}
-
+/* URL Bar Styling */
 input {
-    border-radius: 5px;
-    border-style: solid;
-    border-color: yellowgreen;
-    border-width: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #C7B198;
+    margin-bottom: 4px;
 }
 
+/* Button Styling */
 button {
     font-size: 18px;
-    padding: 5px;
-    background-color: sandybrown;
-    border: none;
-    border-radius: 5px;
+    font-family: 'Spline Sans', sans-serif;
+    background-color: white;
+    color: #C7B198;
+    padding: 10px 20px;
+    border: 1px solid #C7B198;
+    align-items: center;
 }
 
-button:hover {
-    background-color: slategrey;
+/* Manual and Tab Button Styling */
+#manual-btn, #tab-btn {
+    background-color: #C7B198;
     color: white;
+}
+
+/* Links Styling */
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #C7B198;
 }
