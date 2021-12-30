@@ -9,6 +9,7 @@ body {
 /*  Header Styling */
 h1 {
     font-family: 'Acme', sans-serif;
+    font-family: 'Shizuru', cursive;
     font-size: 50px;
     text-align: right;
     margin: 0;
@@ -26,13 +27,14 @@ input {
 
 /* Button Styling */
 button {
-    font-size: 18px;
+    font-size: 12px;
     font-family: 'Spline Sans', sans-serif;
     background-color: white;
     color: #C7B198;
     padding: 10px 20px;
     border: 1px solid #C7B198;
     align-items: center;
+    margin: 2px;
 }
 
 /* Manual and Tab Button Styling */
@@ -46,6 +48,7 @@ ul {
     margin-top: 20px;
     list-style: none;
     padding-left: 0;
+    font-size: 12px;
 }
 
 li {
